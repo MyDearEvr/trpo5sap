@@ -1,0 +1,16 @@
+﻿<Window x:Class="d1.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:d1"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="367.397" Width="324.797">
+    <Grid Margin="0,0,2,5">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+        <UniformGrid Name="ugr" Margin="10,0,10,10" Height="311" VerticalAlignment="Bottom"/>
+        <Button x:Name="button" Content="Создать поле" FontSize="15" HorizontalAlignment="Left" Height="54" Margin="10,10,0,0" VerticalAlignment="Top" Width="107" Click="button_Click"/>
+    </Grid>
+</Window>
